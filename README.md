@@ -47,7 +47,7 @@ Digital scams (banking phishing, look-alike domain impersonation, fake UPI payme
 - Local Room Database audit trail preserving risk scores, categories, explanations, and timestamped security signals.
 
 ### 💻 8. Office Kit & Live Threat Console
-- Asynchronous HTTP/SSE sync manager that streams mobile security events in real time to a desktop Command Center dashboard ([http://localhost:8085/console](http://localhost:8085/console)).
+- Asynchronous HTTP/SSE sync manager that streams mobile security events in real time to a desktop Command Center dashboard (https://scam-shield-x.vercel.app/)
 
 ---
 
@@ -178,18 +178,10 @@ npm start
 ```
 
 Open your browser at:
-- **Product Landing Page**: [http://localhost:8085/](http://localhost:8085/)
-- **Live Threat Console**: [http://localhost:8085/console](http://localhost:8085/console)
-
+- **Product Landing Page**: https://scam-shield-x.vercel.app/
+- **Live Threat Console**: https://scam-shield-x.vercel.app/console
 ---
 
-### 3. Connecting Phone to Laptop Console (Local Wi-Fi)
-
-1. Connect both your Android phone and Laptop to the **same local Wi-Fi network**.
-2. Find your laptop's local IP address using `ipconfig` (e.g., `192.168.31.247`).
-3. Open **ScamShield X** on your phone -> **Settings → PHONE CONNECTION**.
-4. Enter your laptop's local IP (`192.168.31.247`) and tap **`[ TEST CONNECTION ] (PING)`**.
-5. Once connected (**`CONNECTED ●`**), any scan or notification threat on your phone streams live to your desktop console!
 
 ---
 
