@@ -1,0 +1,22 @@
+package com.example.scamshield.risk.intent
+
+enum class MessageIntent {
+    JOB_RECRUITMENT,
+    INTERNSHIP,
+    CAMPUS_AMBASSADOR,
+    FELLOWSHIP,
+    SCHOLARSHIP,
+    HIRING,
+    CAMPUS_PROGRAM,
+    CAREER_INFORMATION,
+    BANKING,
+    PAYMENT,
+    DELIVERY,
+    GOVERNMENT,
+    ACCOUNT_SECURITY,
+    REFUND,
+    PRIZE_REWARD,
+    SOCIAL_MEDIA,
+    GENERAL_INFORMATION,
+    UNKNOWN
+}
