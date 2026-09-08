@@ -14,6 +14,5 @@
 .cxx
 local.properties
 /threat-console/node_modules
-/threat-console/dist
 .artifacts/
 
